@@ -1,24 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./Styling.sass";
+import { Link } from "react-router-dom";
+import CardsContainer from "./Components/CardsContainer";
 
+import User from "./Images/Vector.svg";
+import Logo from "./Images/MEGAKHEIR-Logo 1.svg";
+import PoweredBy from "./Images/Powered-by.svg";
+import facebook from "./Images/Facebook.svg";
+import instagram from "./Images/instagram.svg";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <nav>
+        <Link to="/">
+          <img src={User} alt="user" />
+        </Link>
+
+        <Link to="/">
+          <img src={Logo} alt="logo" />
+        </Link>
+
+      
+      </nav>
+      
+      <CardsContainer />
+
+      <footer>
+        <Link to="/">
+          <img src={PoweredBy} alt="PoweredBy" />
+        </Link>
+        <div>
+          <img src={facebook} alt="facebook" style={{ marginRight: "10px" }} />
+          <img src={instagram} alt="instagram" />
+        </div>
+      </footer>
     </div>
   );
 }
