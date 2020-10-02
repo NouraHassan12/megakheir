@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f4c7cff5312f7367c9af9e54a3a043b",
+    "revision": "2bac0560002137b3a6eb34ab8f77d354",
     "url": "/megakheir/index.html"
   },
   {
-    "revision": "8cd988db25c6c66909b3",
+    "revision": "d7d44ea7c07d8973851f",
     "url": "/megakheir/static/css/main.95cad3e5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/megakheir/static/js/2.df6f2272.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8cd988db25c6c66909b3",
-    "url": "/megakheir/static/js/main.ca0dfa92.chunk.js"
+    "revision": "d7d44ea7c07d8973851f",
+    "url": "/megakheir/static/js/main.2b6741c5.chunk.js"
   },
   {
     "revision": "f3363b397bdc921d073a",
