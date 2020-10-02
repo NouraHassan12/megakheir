@@ -37,12 +37,7 @@ export const fetchCards = () => {
       },
     };
 
-    if (window.location.protocol.indexOf('https') == 0){
-      var el = document.createElement('meta')
-      el.setAttribute('http-equiv', 'Content-Security-Policy')
-      el.setAttribute('content', 'upgrade-insecure-requests')
-      document.head.append(el)
-    }
+  
     
     axios
       .get("http://62.68.253.183:8000/ngos/" , configAxios )
@@ -52,11 +47,18 @@ export const fetchCards = () => {
         dispatch(fetchCardsSuccess(cards));
 
       })
-
+      
       .catch((error) => {
         const errorMsg = error.message;
         dispatch(fetchCardsFailure(errorMsg));
       });
+
+      if (window.location.protocol.indexOf('https') == 0){
+        var el = document.createElement('meta')
+        el.setAttribute('http-equiv', 'Content-Security-Policy')
+        el.setAttribute('content', 'upgrade-insecure-requests')
+        document.head.append(el)
+      }
   };
 };
 
