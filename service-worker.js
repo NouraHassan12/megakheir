@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/megakheir/precache-manifest.d1f73a614de3aec6af612f72233cb4e5.js"
+  "/megakheir/precache-manifest.aac9ebd9b184bdddee3349c484971a2e.js"
 );
 
 self.addEventListener('message', (event) => {
