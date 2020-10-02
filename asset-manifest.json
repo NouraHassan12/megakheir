@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/megakheir/static/css/main.95cad3e5.chunk.css",
+    "main.js": "/megakheir/static/js/main.de23aea1.chunk.js",
+    "main.js.map": "/megakheir/static/js/main.de23aea1.chunk.js.map",
+    "runtime-main.js": "/megakheir/static/js/runtime-main.05f6adc0.js",
+    "runtime-main.js.map": "/megakheir/static/js/runtime-main.05f6adc0.js.map",
+    "static/js/2.df6f2272.chunk.js": "/megakheir/static/js/2.df6f2272.chunk.js",
+    "static/js/2.df6f2272.chunk.js.map": "/megakheir/static/js/2.df6f2272.chunk.js.map",
+    "index.html": "/megakheir/index.html",
+    "precache-manifest.f87c78f771ca45e78d4e77ede7907283.js": "/megakheir/precache-manifest.f87c78f771ca45e78d4e77ede7907283.js",
+    "service-worker.js": "/megakheir/service-worker.js",
+    "static/css/main.95cad3e5.chunk.css.map": "/megakheir/static/css/main.95cad3e5.chunk.css.map",
+    "static/js/2.df6f2272.chunk.js.LICENSE.txt": "/megakheir/static/js/2.df6f2272.chunk.js.LICENSE.txt",
+    "static/media/Facebook.svg": "/megakheir/static/media/Facebook.967c61a5.svg",
+    "static/media/MEGAKHEIR-Logo 1.svg": "/megakheir/static/media/MEGAKHEIR-Logo 1.0ed5f72a.svg",
+    "static/media/Powered-by.svg": "/megakheir/static/media/Powered-by.9c26d8b5.svg",
+    "static/media/Vector.svg": "/megakheir/static/media/Vector.b1ddbca6.svg",
+    "static/media/instagram.svg": "/megakheir/static/media/instagram.12cfaa8c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05f6adc0.js",
+    "static/js/2.df6f2272.chunk.js",
+    "static/css/main.95cad3e5.chunk.css",
+    "static/js/main.de23aea1.chunk.js"
+  ]
+}
