@@ -29,9 +29,9 @@ const fetchCardsFailure = (error) => {
 export const fetchCards = () => {
   return (dispatch) => {
     dispatch(fetchCardsRequest);
-   
+
     axios
-      .get("http://62.68.253.183:8000/ngos/")
+      .get("https://megakheir.herokuapp.com/ngos")
 
       .then((res) => {
         console.log(res.data.data, "cardss");
@@ -43,7 +43,5 @@ export const fetchCards = () => {
         const errorMsg = error.message;
         dispatch(fetchCardsFailure(errorMsg));
       });
-
-
   };
 };
