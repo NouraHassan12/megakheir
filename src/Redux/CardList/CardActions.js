@@ -37,7 +37,7 @@ export const fetchCards = () => {
       },
     };
     axios
-      .get("http://62.68.253.183:8000/ngos/" , configAxios )
+      .get("http://62.68.253.183:8000/ngos//" , configAxios )
       .then((res) => {
         console.log(res.data.data,"cardss");
         const cards = res.data.data;
