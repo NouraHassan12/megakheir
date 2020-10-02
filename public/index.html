@@ -44,21 +44,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <div id="output">Waiting for data...</div>
-    <script>
-      var rootUrl = 'http://googlesamples.github.io/web-fundamentals/fundamentals/security/prevent-mixed-content';
-      var resources = {
-        jsonData: '/xmlhttprequest-data.js'
-      };
-      var request = new XMLHttpRequest();
-      request.addEventListener('load', function() {
-        var jsonData = JSON.parse(request.responseText);
-        document.getElementById('output').innerHTML += '<br>' + jsonData.data;
-      });
-      request.open('GET', rootUrl + resources.jsonData, true);
-      request.send();
-    </script>
-  </div>
+  
 
  <script>
   (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
