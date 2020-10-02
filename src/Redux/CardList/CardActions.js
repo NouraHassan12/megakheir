@@ -29,18 +29,7 @@ const fetchCardsFailure = (error) => {
 export const fetchCards = () => {
   return (dispatch) => {
     dispatch(fetchCardsRequest);
-    // const configAxios = {
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    // };
-    if (window.location.protocol.indexOf("https") == 0) {
-      var el = document.createElement("meta");
-      el.setAttribute("http-equiv", "Content-Security-Policy");
-      el.setAttribute("content", "upgrade-insecure-requests");
-      document.head.append(el);
-    }
-
+   
     axios
       .get("http://62.68.253.183:8000/ngos/")
 
@@ -55,11 +44,6 @@ export const fetchCards = () => {
         dispatch(fetchCardsFailure(errorMsg));
       });
 
-    const xhr = new XMLHttpRequest();
-    const url = "http://62.68.253.183:8000/ngos/";
 
-    xhr.open("GET", url);
-    // xhr.onreadystatechange = someHandler;
-    xhr.send();
   };
 };

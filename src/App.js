@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 import "./Styling.sass";
 import { Link } from "react-router-dom";
 import CardsContainer from "./Components/CardsContainer";
@@ -8,7 +8,10 @@ import Logo from "./Images/MEGAKHEIR-Logo 1.svg";
 import PoweredBy from "./Images/Powered-by.svg";
 import facebook from "./Images/Facebook.svg";
 import instagram from "./Images/instagram.svg";
+
 function App() {
+
+
   return (
     <div className="">
       <nav>
