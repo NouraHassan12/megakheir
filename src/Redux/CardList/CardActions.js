@@ -31,13 +31,13 @@ const fetchCardsFailure = (error) => {
 export const fetchCards = () => {
   return (dispatch) => {
     dispatch(fetchCardsRequest);
-    const configAxios = {
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    };
+    // const configAxios = {
+    //   headers: {
+    //     'Content-Type': 'application/json',
+    //   },
+    // };
     axios
-      .get("http://62.68.253.183:8000/ngos//" , configAxios )
+      .get("http://62.68.253.183:8000/ngos/" ,  )
       .then((res) => {
         console.log(res.data.data,"cardss");
         const cards = res.data.data;
