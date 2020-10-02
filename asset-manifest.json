@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/megakheir/static/css/main.95cad3e5.chunk.css",
-    "main.js": "/megakheir/static/js/main.de23aea1.chunk.js",
-    "main.js.map": "/megakheir/static/js/main.de23aea1.chunk.js.map",
+    "main.js": "/megakheir/static/js/main.f0bc6d84.chunk.js",
+    "main.js.map": "/megakheir/static/js/main.f0bc6d84.chunk.js.map",
     "runtime-main.js": "/megakheir/static/js/runtime-main.05f6adc0.js",
     "runtime-main.js.map": "/megakheir/static/js/runtime-main.05f6adc0.js.map",
     "static/js/2.df6f2272.chunk.js": "/megakheir/static/js/2.df6f2272.chunk.js",
     "static/js/2.df6f2272.chunk.js.map": "/megakheir/static/js/2.df6f2272.chunk.js.map",
     "index.html": "/megakheir/index.html",
-    "precache-manifest.5b23878b3ab26b123bcb6642433097d5.js": "/megakheir/precache-manifest.5b23878b3ab26b123bcb6642433097d5.js",
+    "precache-manifest.179383f53099857122fd91c1935354d2.js": "/megakheir/precache-manifest.179383f53099857122fd91c1935354d2.js",
     "service-worker.js": "/megakheir/service-worker.js",
     "static/css/main.95cad3e5.chunk.css.map": "/megakheir/static/css/main.95cad3e5.chunk.css.map",
     "static/js/2.df6f2272.chunk.js.LICENSE.txt": "/megakheir/static/js/2.df6f2272.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.05f6adc0.js",
     "static/js/2.df6f2272.chunk.js",
     "static/css/main.95cad3e5.chunk.css",
-    "static/js/main.de23aea1.chunk.js"
+    "static/js/main.f0bc6d84.chunk.js"
   ]
 }
