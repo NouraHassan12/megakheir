@@ -16,6 +16,7 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         loading: true,
+        
       };
     case FETCH_CARDS_SUCCESS:
       return {

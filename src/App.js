@@ -1,8 +1,8 @@
-import React  from "react";
+import React from "react";
 import "./Styling.sass";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
 import CardsContainer from "./Components/CardsContainer";
-
+import CardDetails from "./Components/CardDetails";
 import User from "./Images/Vector.svg";
 import Logo from "./Images/MEGAKHEIR-Logo 1.svg";
 import PoweredBy from "./Images/Powered-by.svg";
@@ -10,8 +10,6 @@ import facebook from "./Images/Facebook.svg";
 import instagram from "./Images/instagram.svg";
 
 function App() {
-
-
   return (
     <div className="">
       <nav>
@@ -23,10 +21,13 @@ function App() {
           <img src={Logo} alt="logo" />
         </Link>
 
-      
+     
       </nav>
-      
-      <CardsContainer />
+      <Switch>
+        <Route exact path="/" component={CardsContainer} />
+        <Route exact path="/card/:pkID" component={CardDetails} />
+      </Switch>
+      {/* <CardsContainer /> */}
 
       <footer>
         <Link to="/">

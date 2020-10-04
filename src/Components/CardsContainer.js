@@ -3,25 +3,27 @@ import { connect } from "react-redux";
 import { fetchCards } from "../Redux/CardList/CardActions";
 import { Link } from "react-router-dom";
 import "../../src/Styling.sass";
-function CardsContainer({ cardData, fetchCards }) {
+function CardsContainer(props) {
+const { cardssData, fetchCards } = props;
 
   useEffect(() => {
     fetchCards();
   }, []);
 
-  return cardData.loading ? (
+  return cardssData.loading ? (
     <h2>Loading</h2>
-  ) : cardData.error ? (
-    <h2>{cardData.error}</h2>
+  ) : cardssData.error ? (
+    <h2>{cardssData.error}</h2>
   ) : (
+    <div className="cardContainer">
     <div className="container">
       <h3  className="title" style={{color:"white"}} >
         الجمعيات الخيرية
       </h3>
       <div className="row">
-        {cardData &&
-          cardData.cards &&
-          cardData.cards.map((card) => (
+        {cardssData &&
+          cardssData.cards &&
+          cardssData.cards.map((card) => (
             <div className=" content col-md-4" key={card.pkID}>
               <div className="card">
                 <div className="card-body">
@@ -37,7 +39,7 @@ function CardsContainer({ cardData, fetchCards }) {
                   </div>
                   <div className="card-content">
                     <button className="card-btn">
-                      <Link to="">تبرع الان</Link>
+                      <Link to={`/card/${card.pkID}`}>...المزيد</Link>
                     </button>
                   </div>
                 </div>
@@ -46,12 +48,13 @@ function CardsContainer({ cardData, fetchCards }) {
           ))}
       </div>
     </div>
+    </div>
   );
 }
 
 const mapStateToProps = (state) => {
   return {
-    cardData: state.card,
+    cardssData: state.card,
   };
 };
 
