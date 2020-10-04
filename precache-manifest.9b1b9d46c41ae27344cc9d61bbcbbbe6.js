@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e35d48edc108e3c271e54baf46d8c0c",
+    "revision": "0342f7d2222bafd54f75567883b4bce8",
     "url": "/megakheir/index.html"
   },
   {
-    "revision": "b89a1e15c0d2f30228bb",
-    "url": "/megakheir/static/css/main.95cad3e5.chunk.css"
+    "revision": "7d3c7c2638a618b6af61",
+    "url": "/megakheir/static/css/main.f84f3a51.chunk.css"
   },
   {
-    "revision": "b8ad14c6db314ab6c0cb",
-    "url": "/megakheir/static/js/2.df6f2272.chunk.js"
+    "revision": "d165f2b9fe0231a88960",
+    "url": "/megakheir/static/js/2.e60def65.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/megakheir/static/js/2.df6f2272.chunk.js.LICENSE.txt"
+    "url": "/megakheir/static/js/2.e60def65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b89a1e15c0d2f30228bb",
-    "url": "/megakheir/static/js/main.f0bc6d84.chunk.js"
+    "revision": "7d3c7c2638a618b6af61",
+    "url": "/megakheir/static/js/main.3984a7ff.chunk.js"
   },
   {
     "revision": "f3363b397bdc921d073a",
