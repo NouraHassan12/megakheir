@@ -16,18 +16,23 @@ function App() {
         <Link to="/">
           <img src={User} alt="user" />
         </Link>
-
+        <Link to="/">
+     <h3 style={{color:"black"}}>Orgoanizations</h3>
+        </Link>
         <Link to="/">
           <img src={Logo} alt="logo" />
         </Link>
 
+       
      
       </nav>
+         {/* <CardsContainer /> */}
       <Switch>
+     
         <Route exact path="/" component={CardsContainer} />
         <Route exact path="/card/:pkID" component={CardDetails} />
       </Switch>
-      {/* <CardsContainer /> */}
+   
 
       <footer>
         <Link to="/">
